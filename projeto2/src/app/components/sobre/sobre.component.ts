@@ -21,6 +21,12 @@ export class SobreComponent implements OnInit {
   @Input() terceiro: string =
     '- O terceiro componente, foi criado um expansion panel, onde dentro dele contém informações do projeto.';
 
+  @Input() terceiro2: string =
+    'O texto desse componente, está sendo exibido através de interpolação.';
+
   @Input() quarto: string =
     '- O quarto componente, foi criado botões onde ao clicar, levam para o LinkedIn e Github de Ivan Lopes.';
+
+  @Input() quinto: string =
+    '- No último item do desafio, foi solicitado um vídeo do projeto, porém fiz diferente e hospedei o site no vercel para visualização e testes.';
 }
