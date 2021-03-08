@@ -10,9 +10,19 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatTabsModule } from '@angular/material/tabs';
+import { TabsComponent } from './components/tabs/tabs.component';
+import { SobreComponent } from './components/sobre/sobre.component';
+import { MidiasComponent } from './components/midias/midias.component';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent],
+  declarations: [
+    AppComponent,
+    HomeComponent,
+    TabsComponent,
+    SobreComponent,
+    MidiasComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -22,6 +32,7 @@ import { MatTabsModule } from '@angular/material/tabs';
     MatDividerModule,
     BrowserAnimationsModule,
     MatTabsModule,
+    MatProgressBarModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

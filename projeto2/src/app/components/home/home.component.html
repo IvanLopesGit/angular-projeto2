@@ -1,72 +1,23 @@
-<link
-  rel="stylesheet"
-  href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
-  integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
-  crossorigin="anonymous"
-/>
+<div class="label">Projeto Angular</div>
 
-<section>
-  <div class="example-label">Projeto Angular</div>
-  <div class="example-button-row">
-    <div class="example-flex-container">
-      <div class="example-button-container">
-        <button
-          class="linkedin"
-          mat-fab
-          aria-label="Example icon button with a delete icon"
-        >
-          <mat-icon class="fab fa-linkedin-in"></mat-icon>
-        </button>
-      </div>
-
-      <div class="example-button-container">
-        <button
-          class="github"
-          mat-fab
-          aria-label="Example icon button with a delete icon"
-        >
-          <mat-icon class="githubAlign">
-            <i class="fab fa-github fa-lg"></i>
-          </mat-icon>
-        </button>
-      </div>
-    </div>
-  </div>
-</section>
+<pro2-tabs></pro2-tabs>
 
 <br />
 
-<mat-divider></mat-divider>
+<mat-progress-bar mode="buffer"></mat-progress-bar>
 
 <br />
 
-<mat-accordion>
-  <mat-expansion-panel
-    (opened)="panelOpenState = true"
-    (closed)="panelOpenState = false"
-  >
-    <mat-expansion-panel-header collapsedHeight="60px">
-      <mat-panel-title class="panelTitle"> Sobre Esse Projeto </mat-panel-title>
-      <mat-panel-description class="panelTitle">
-        Clique para mais informações
-      </mat-panel-description>
-    </mat-expansion-panel-header>
-    <p class="panelText">
-      Projeto criado para a aula prática de Angular no curso da Avanade.<br /><br />
-      - O primeiro componente, foi criado botões onde ao clicar, levam para o
-      LinkedIn e Github de Ivan Lopes.
-    </p>
-  </mat-expansion-panel>
-</mat-accordion>
+<pro2-sobre></pro2-sobre>
 
 <br />
 
-<mat-divider></mat-divider>
+<mat-progress-bar mode="buffer"></mat-progress-bar>
 
 <br />
 
-<mat-tab-group>
-  <mat-tab label="Botões"> Conteúdo Criado </mat-tab>
-  <mat-tab label="Projeto"> Informações do Projeto </mat-tab>
-  <mat-tab label="Tabs"> Slide de Criação </mat-tab>
-</mat-tab-group>
+<pro2-midias></pro2-midias>
+
+<br />
+
+<mat-progress-bar mode="buffer"></mat-progress-bar>
